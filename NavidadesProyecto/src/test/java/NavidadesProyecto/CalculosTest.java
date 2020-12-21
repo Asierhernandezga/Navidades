@@ -10,7 +10,7 @@ public class CalculosTest {
 	private int resultadoInt;
 	private double resultadoDouble;
 	private int x, y;
-	y=0;
+	
 	@Test
 	public void testSuma() {
 		x=4;
@@ -25,7 +25,7 @@ public class CalculosTest {
 	@Test
 	public void testResta() {
 		x=4;
-		y=7;
+		y=8;
 		
 		resultadoInt = calculos.resta(x, y);
 		
